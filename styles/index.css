@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #fff;
+    --blue-100: #ecf0fc;
+    --blue-200: #c7d2f5;
+    --blue-300: #8fa4ea;
+    --blue-400: #4568dc;
+
+    --gray-100: #e8e9ec;
+    --gray-200: #b9bcc6;
+    --gray-300: #73798e;
+    --gray-400: #151f42;
+}
+
+#logo {
+    width: 100px;
+}
