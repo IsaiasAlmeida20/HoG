@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
 }
-
 :root {
     --white: #fff;
     --blue-100: #ecf0fc;
@@ -18,5 +19,10 @@
 }
 
 #logo {
-    width: 100px;
+    width: 6rem;
+}
+
+.carousel {
+    margin-top: 5rem;
+    position: relative;
 }
