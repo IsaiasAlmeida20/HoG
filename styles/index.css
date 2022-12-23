@@ -1,29 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
 }
 :root {
-    --white: #fff;
-    --blue-100: #ecf0fc;
-    --blue-200: #c7d2f5;
-    --blue-300: #8fa4ea;
-    --blue-400: #4568dc;
+  --white: #fff;
+  --blue-100: #ecf0fc;
+  --blue-200: #c7d2f5;
+  --blue-300: #8fa4ea;
+  --blue-400: #4568dc;
 
-    --gray-100: #e8e9ec;
-    --gray-200: #b9bcc6;
-    --gray-300: #73798e;
-    --gray-400: #151f42;
+  --gray-100: #e8e9ec;
+  --gray-200: #b9bcc6;
+  --gray-300: #73798e;
+  --gray-400: #151f42;
 }
 
 #logo {
-    width: 9rem;
-    margin-right: 20px;
+  width: 9rem;
 }
 
 .custom-m {
-    margin-top: 5rem;
+  margin-top: 7rem;
+}
 
+nav div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 992px) {
+  nav div {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .custom-m {
+    margin-top: 3.5rem;
+  }
+
+  #ul-dropdown {
+    text-align: center;
+    width: 100%;
+  }
 }
