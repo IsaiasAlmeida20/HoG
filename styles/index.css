@@ -19,10 +19,11 @@
 }
 
 #logo {
-    width: 6rem;
+    width: 9rem;
+    margin-right: 20px;
 }
 
-.carousel {
+.custom-m {
     margin-top: 5rem;
-    position: relative;
+
 }
