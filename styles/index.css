@@ -1,29 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Ubuntu', sans-serif;
 }
-:root {
-  --white: #fff;
-  --blue-100: #ecf0fc;
-  --blue-200: #c7d2f5;
-  --blue-300: #8fa4ea;
-  --blue-400: #4568dc;
 
-  --gray-100: #e8e9ec;
-  --gray-200: #b9bcc6;
-  --gray-300: #73798e;
-  --gray-400: #151f42;
+body {
+  background-image: url("../img/bg-index1.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* color: #fff; */
+}
+
+.custom-header {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.navbar {
+  /* background-color: rgb(12,18,50); */
+  background-color: rgb(160, 185, 225);
 }
 
 #logo {
   width: 9rem;
 }
 
+.custom-bg {
+  /* background: rgba(12, 18, 50, 0.349); */
+  background: rgba(160, 185, 225, 0.699);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
+}
+
 .custom-m {
-  margin-top: 7rem;
+  margin-top: 6rem;
 }
 
 nav div {
