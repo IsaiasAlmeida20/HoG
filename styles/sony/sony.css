@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  background-image: url("../../img/sony/bg-sony1.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* color: #fff; */
+}
+
+.custom-header {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.navbar {
+  background-color: rgba(48, 39, 32, 0.989);
+}
+
+#logo {
+  width: 9rem;
+}
+
+.custom-bg {
+  background:  rgba(48,39,32, 0.50);
+  box-shadow: 0 8px 32px 0 rgba(112, 115, 153, 0.37);
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
+}
+
