@@ -49,7 +49,7 @@ function bar() {
                 >
                 </li>
                 <li>
-                <a class="dropdown-item text-center" href="../../src/sony/pstwo.html"
+                <a class="dropdown-item text-center" href="../../src/sony/ps2.html"
                     >PlayStation 2</a
                 >
                 </li>
@@ -57,7 +57,7 @@ function bar() {
                 <a class="dropdown-item text-center" href="#">PSP</a>
                 </li>
                 <li>
-                <a class="dropdown-item text-center" href="#"
+                <a class="dropdown-item text-center" href="../../src/sony/ps3.html"
                     >PlayStation 3</a
                 >
                 </li>
@@ -65,12 +65,12 @@ function bar() {
                 <a class="dropdown-item text-center" href="#">PS Vita</a>
                 </li>
                 <li>
-                <a class="dropdown-item text-center" href="#"
+                <a class="dropdown-item text-center" href="../../src/sony/ps4.html"
                     >PlayStation 4</a
                 >
                 </li>
                 <li>
-                <a class="dropdown-item text-center" href="#"
+                <a class="dropdown-item text-center" href="../../src/sony/ps5.html"
                     >PlayStation 5</a
                 >
                 </li>
