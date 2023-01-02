@@ -10,5 +10,14 @@ body {
   width: 15rem;
 }
 
+@media (max-width: 1200px) {
+  .break {
+    flex-direction: column;
+  }
+  .cont {
+    width: 100%;
+  }
+}
+
 
 
