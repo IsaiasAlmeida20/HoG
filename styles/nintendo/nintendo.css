@@ -10,5 +10,25 @@ body {
   width: 15rem;
 }
 
+.image{
+  width: 65%;
+}
 
+@media (max-width: 1200px) {
+  .break {
+    flex-direction: column;
+  }
+  .image{
+    width: 90%;
+  }
+}
 
+@media (max-width: 575px) {
+  .container-sm {
+    width: 90%;
+  }
+
+  .image{
+    width: 100%;
+  }
+}

@@ -8,7 +8,7 @@ function bar() {
         <img id="logo" src="../../img/logo/hog-logo-horizontal.png" alt="Logo" />
         </a>
         <button
-        class="navbar-toggler"
+        class="navbar-toggler rounded-1 border-dark"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent"
@@ -182,10 +182,10 @@ function bar() {
             </a>
             <ul class="dropdown-menu border-0">
                 <li>
-                <a class="dropdown-item text-center" href="#">Xbox</a>
+                <a class="dropdown-item text-center" href="../../src/microsoft/xboxoriginal.html">Xbox</a>
                 </li>
                 <li>
-                <a class="dropdown-item text-center" href="#">Xbox 360</a>
+                <a class="dropdown-item text-center" href="../../src/microsoft/xbox360.html">Xbox 360</a>
                 </li>
                 <li>
                 <a class="dropdown-item text-center" href="#">Xbox One</a>
