@@ -31,8 +31,10 @@ body {
 }
 
 .custom-p {
+  text-indent: 5%;
+  text-align: justify;
   font-size: 1.25rem;
-  padding: 3rem;
+  padding: 1rem 5rem 1rem 5rem;
 }
 
 nav div {

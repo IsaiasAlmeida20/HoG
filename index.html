@@ -45,15 +45,15 @@
     </nav>
 
     <div
-      id="carouselExampleCaptions"
+      id="carouselExampleAutoplaying"
       class="carousel slide overflow-hidden custom-m"
-      data-bs-ride="false"
+      data-bs-ride="carousel carousel-inner"
     >
       <h1 class="text-center custom-header mb-5 mt-5">History of Games</h1>
       <div class="carousel-indicators">
         <button
           type="button"
-          data-bs-target="#carouselExampleCaptions"
+          data-bs-target="#carouselExampleAutoplaying"
           data-bs-slide-to="0"
           class="active"
           aria-current="true"
@@ -61,13 +61,13 @@
         ></button>
         <button
           type="button"
-          data-bs-target="#carouselExampleCaptions"
+          data-bs-target="#carouselExampleAutoplaying"
           data-bs-slide-to="1"
           aria-label="Slide 2"
         ></button>
         <button
           type="button"
-          data-bs-target="#carouselExampleCaptions"
+          data-bs-target="#carouselExampleAutoplaying"
           data-bs-slide-to="2"
           aria-label="Slide 3"
         ></button>
@@ -118,19 +118,27 @@
       <button
         class="carousel-control-prev"
         type="button"
-        data-bs-target="#carouselExampleCaptions"
+        data-bs-target="#carouselExampleAutoplaying"
         data-bs-slide="prev"
       >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="carousel-control-prev" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" width="36" fill="currentColor" class="bi bi-caret-left-fill text-black" viewBox="0 0 16 16">
+            <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+          </svg>
+        </span>
         <span class="visually-hidden">Previous</span>
       </button>
       <button
         class="carousel-control-next"
         type="button"
-        data-bs-target="#carouselExampleCaptions"
+        data-bs-target="#carouselExampleAutoplaying"
         data-bs-slide="next"
       >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="carousel-control-next " aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" width="36" fill="currentColor" class="bi bi-caret-right-fill text-black" viewBox="0 0 16 16">
+            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+          </svg>
+        </span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
