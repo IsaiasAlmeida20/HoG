@@ -80,4 +80,7 @@ main {
   .container-sm {
     width: 90%;
   }
+  .custom-p{
+    padding: 0;
+  }
 }

@@ -102,6 +102,7 @@ body {
   }
   .container-p {
     width: auto;
+    padding: 0;
   }
 
   .consoles {
