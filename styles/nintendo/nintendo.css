@@ -7,7 +7,7 @@ body {
 }
 
 .card-width {
-  width: 272px;
+  width: 17rem;
 }
 
 .card-width > img{
@@ -66,10 +66,23 @@ body {
   .container-p{
     width: 105%;
   }
+
+  .consoles {
+    padding: 0;
+    margin: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .card-width {
+    margin: auto;
+  }
 }
 
 @media (max-width: 575px) {
-
+  .container-sm {
+    width: 90%;
+  }
   .container-img img {
     width: 100%;
   }
@@ -90,4 +103,14 @@ body {
   .container-p {
     width: auto;
   }
+
+  .consoles {
+    padding: 0;
+    margin: auto;
+  }
+
+  .card-width {
+    margin: auto;
+  }
+  
 }
