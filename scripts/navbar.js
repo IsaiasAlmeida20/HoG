@@ -8,7 +8,7 @@ function bar() {
         <img id="logo" src="../../img/logo/hog-logo-horizontal.png" alt="Logo" />
         </a>
         <button
-        class="navbar-toggler rounded-1 border-dark"
+        class="navbar-toggler rounded-1"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent"
@@ -54,15 +54,9 @@ function bar() {
                 >
                 </li>
                 <li>
-                <a class="dropdown-item text-center" href="#">PSP</a>
-                </li>
-                <li>
                 <a class="dropdown-item text-center" href="../../src/sony/ps3.html"
                     >PlayStation 3</a
                 >
-                </li>
-                <li>
-                <a class="dropdown-item text-center" href="#">PS Vita</a>
                 </li>
                 <li>
                 <a class="dropdown-item text-center" href="../../src/sony/ps4.html"
@@ -73,6 +67,12 @@ function bar() {
                 <a class="dropdown-item text-center" href="../../src/sony/ps5.html"
                     >PlayStation 5</a
                 >
+                </li>
+                <li>
+                <a class="dropdown-item text-center" href="#">PSP</a>
+                </li>
+                <li>
+                <a class="dropdown-item text-center" href="#">PS Vita</a>
                 </li>
             </ul>
             </li>
@@ -104,19 +104,11 @@ function bar() {
             <ul class="dropdown-menu border-0">
                 <li>
                 <a class="dropdown-item text-center" href="#"
-                    >Color TV-Game</a
-                >
-                </li>
-                <li>
-                <a class="dropdown-item text-center" href="#">Game & Watch</a>
-                </li>
-                <li>
-                <a class="dropdown-item text-center" href="#"
                     >Nintendo Entertainment System</a
                 >
                 </li>
                 <li>
-                <a class="dropdown-item text-center" href="#">Game Boy</a>
+                <a class="dropdown-item text-center" href="#">Game Boy/Advance</a>
                 </li>
                 <li>
                 <a class="dropdown-item text-center" href="#"
@@ -124,15 +116,7 @@ function bar() {
                 >
                 </li>
                 <li>
-                <a class="dropdown-item text-center" href="#">Virtual Boy</a>
-                </li>
-                <li>
                 <a class="dropdown-item text-center" href="#">Nintendo 64</a>
-                </li>
-                <li>
-                <a class="dropdown-item text-center" href="#"
-                    >Game Boy Advance</a
-                >
                 </li>
                 <li>
                 <a class="dropdown-item text-center" href="#"
@@ -140,16 +124,10 @@ function bar() {
                 >
                 </li>
                 <li>
-                <a class="dropdown-item text-center" href="#">Nintendo DS</a>
+                <a class="dropdown-item text-center" href="#">Nintendo DS/3DS</a>
                 </li>
                 <li>
-                <a class="dropdown-item text-center" href="#">Wii</a>
-                </li>
-                <li>
-                <a class="dropdown-item text-center" href="#">Nintendo 3DS</a>
-                </li>
-                <li>
-                <a class="dropdown-item text-center" href="#">Wii U</a>
+                <a class="dropdown-item text-center" href="#">Nintendo Wii/Wii U</a>
                 </li>
                 <li>
                 <a class="dropdown-item text-center" href="#"
@@ -188,7 +166,7 @@ function bar() {
                 <a class="dropdown-item text-center" href="../../src/microsoft/xbox360.html">Xbox 360</a>
                 </li>
                 <li>
-                <a class="dropdown-item text-center" href="#">Xbox One</a>
+                <a class="dropdown-item text-center" href="#">Xbox One X/S</a>
                 </li>
                 <li>
                 <a class="dropdown-item text-center" href="#"
