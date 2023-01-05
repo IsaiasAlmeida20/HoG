@@ -44,27 +44,27 @@ function bar() {
             </a>
             <ul class="dropdown-menu border-0">
                 <li>
-                <a class="dropdown-item text-center" href="../../src/sony/psone.html"
+                <a class="dropdown-item text-center" href="./../src/sony/psone.html"
                     >PlayStation 1</a
                 >
                 </li>
                 <li>
-                <a class="dropdown-item text-center" href="../../src/sony/ps2.html"
+                <a class="dropdown-item text-center" href="./../src/sony/ps2.html"
                     >PlayStation 2</a
                 >
                 </li>
                 <li>
-                <a class="dropdown-item text-center" href="../../src/sony/ps3.html"
+                <a class="dropdown-item text-center" href="./../src/sony/ps3.html"
                     >PlayStation 3</a
                 >
                 </li>
                 <li>
-                <a class="dropdown-item text-center" href="../../src/sony/ps4.html"
+                <a class="dropdown-item text-center" href="./../src/sony/ps4.html"
                     >PlayStation 4</a
                 >
                 </li>
                 <li>
-                <a class="dropdown-item text-center" href="../../src/sony/ps5.html"
+                <a class="dropdown-item text-center" href="./../src/sony/ps5.html"
                     >PlayStation 5</a
                 >
                 </li>
@@ -160,10 +160,10 @@ function bar() {
             </a>
             <ul class="dropdown-menu border-0">
                 <li>
-                <a class="dropdown-item text-center" href="../../src/microsoft/xboxoriginal.html">Xbox</a>
+                <a class="dropdown-item text-center" href="./../src/microsoft/xboxoriginal.html">Xbox</a>
                 </li>
                 <li>
-                <a class="dropdown-item text-center" href="../../src/microsoft/xbox360.html">Xbox 360</a>
+                <a class="dropdown-item text-center" href="./../src/microsoft/xbox360.html">Xbox 360</a>
                 </li>
                 <li>
                 <a class="dropdown-item text-center" href="#">Xbox One X/S</a>
