@@ -5,7 +5,7 @@ function bar() {
     nav.innerHTML = `
     <div class="container-fluid" id="teste">
         <a class="navbar-brand p-0" href="../../index.html">
-        <img id="logo" src="../../img/logo/hog-logo-horizontal.png" alt="Logo" />
+        <img id="logo" src="./../../img/logo/hog-logo-horizontal.png" alt="Logo" />
         </a>
         <button
         class="navbar-toggler rounded-1"
@@ -44,27 +44,27 @@ function bar() {
             </a>
             <ul class="dropdown-menu border-0">
                 <li>
-                <a class="dropdown-item text-center" href="./../src/sony/psone.html"
+                <a class="dropdown-item text-center" href="./../../src/sony/psone.html"
                     >PlayStation 1</a
                 >
                 </li>
                 <li>
-                <a class="dropdown-item text-center" href="./../src/sony/ps2.html"
+                <a class="dropdown-item text-center" href="./../../src/sony/ps2.html"
                     >PlayStation 2</a
                 >
                 </li>
                 <li>
-                <a class="dropdown-item text-center" href="./../src/sony/ps3.html"
+                <a class="dropdown-item text-center" href="./../../src/sony/ps3.html"
                     >PlayStation 3</a
                 >
                 </li>
                 <li>
-                <a class="dropdown-item text-center" href="./../src/sony/ps4.html"
+                <a class="dropdown-item text-center" href="./../../src/sony/ps4.html"
                     >PlayStation 4</a
                 >
                 </li>
                 <li>
-                <a class="dropdown-item text-center" href="./../src/sony/ps5.html"
+                <a class="dropdown-item text-center" href="./../../src/sony/ps5.html"
                     >PlayStation 5</a
                 >
                 </li>
