@@ -1,0 +1,7 @@
+body {
+    background-image: url("../../img/sony/bg/bg-ps5.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

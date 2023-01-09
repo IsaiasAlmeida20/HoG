@@ -69,10 +69,7 @@ function bar() {
                 >
                 </li>
                 <li>
-                <a class="dropdown-item text-center" href="#">PSP</a>
-                </li>
-                <li>
-                <a class="dropdown-item text-center" href="#">PS Vita</a>
+                <a class="dropdown-item text-center" href="#">PSP /PS Vita</a>
                 </li>
             </ul>
             </li>
