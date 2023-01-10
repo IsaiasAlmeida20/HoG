@@ -93,11 +93,14 @@ body {
   .card-width {
     margin: auto;
   }
+  .table tbody tr {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 575px) {
   .container-sm {
-    width: 90%;
+    width: 95%;
   }
   .container-img img {
     width: 100%;

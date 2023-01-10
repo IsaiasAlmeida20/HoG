@@ -48,6 +48,10 @@ main {
   background-color: white;
 }
 
+#link-footer:hover {
+  text-decoration: none;
+}
+
 @media (max-width: 992px) {
   nav div {
     flex-direction: row;

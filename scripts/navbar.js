@@ -183,22 +183,22 @@ function loadFooter() {
         <div class="text-center p-3">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
                 <li class="nav-item">
-                    <a href="../../index.html" class="nav-link px-2 text-muted">Home</a>
+                    <a href="../../index.html" class=" px-2 text-muted" id="link-footer">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="../sony/sony.html" class="nav-link px-2 text-muted">PlayStation</a>
+                    <a href="../sony/sony.html" class=" px-2 text-muted" id="link-footer">PlayStation</a>
                 </li>
                 <li class="nav-item">
-                    <a href="../nintendo/nintendo.html" class="nav-link px-2 text-muted">Nintendo</a>
+                    <a href="../nintendo/nintendo.html" class=" px-2 text-muted" id="link-footer">Nintendo</a>
                 </li>
                 <li class="nav-item">
-                    <a href="../microsoft/microsoft.html" class="nav-link px-2 text-muted">Xbox</a>
+                    <a href="../microsoft/microsoft.html" class=" px-2 text-muted" id="link-footer">Xbox</a>
                 </li>
             </ul>
         <p class="text-center text-muted">© 2023</p>
         <p class="text-center text-muted">Projeto desenvolvido por
-            <a href="https://github.com/IsaiasAlmeida20" target="_blank" class="text-white-50">Isaías Almeida</a> & 
-            <a href="https://github.com/ilmardanilo" target="_blank" class="text-white-50">Ilmar Danilo</a>
+            <a href="https://github.com/IsaiasAlmeida20" target="_blank" class="text-white-50" id="link-footer">Isaías Almeida</a> & 
+            <a href="https://github.com/ilmardanilo" target="_blank" class="text-white-50" id="link-footer">Ilmar Danilo</a>
         </p>
       </div>
       `;
