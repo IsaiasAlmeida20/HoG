@@ -1,8 +1,8 @@
 const nav = document.getElementById('nav');
 const foot = document.getElementById('foot');
 
-function bar() {
-    nav.innerHTML = `
+function loadNavbar() {
+  nav.innerHTML = `
     <div class="container-fluid" id="teste">
         <a class="navbar-brand p-0" href="../../index.html">
         <img id="logo" src="../../img/logo/hog-logo-horizontal.png" alt="Logo" />
@@ -69,7 +69,7 @@ function bar() {
                 >
                 </li>
                 <li>
-                <a class="dropdown-item text-center" href="../../src/sony/psp-vita.html">PSP /PS Vita</a>
+                <a class="dropdown-item text-center" href="../../src/sony/psp-vita.html">PSP/PS Vita</a>
                 </li>
             </ul>
             </li>
@@ -175,27 +175,31 @@ function bar() {
         </ul>
         </div>
     </div>
-    `
+    `;
 }
 
-function fot() {
-    foot.innerHTML = `
+function loadFooter() {
+  foot.innerHTML = `
         <div class="text-center p-3">
-            Projeto desenvolvido por
-            <a
-            href="https://github.com/IsaiasAlmeida20"
-            target="_blank"
-            class="text-white-50"
-            >Isaías Almeida</a
-            >
-            &
-            <a
-            href="https://github.com/ilmardanilo"
-            target="_blank"
-            class="text-white-50"
-            >Ilmar Danilo</a
-            >
-        </div>
-    `
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item">
+                    <a href="../../index.html" class="nav-link px-2 text-muted">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../sony/sony.html" class="nav-link px-2 text-muted">PlayStation</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../nintendo/nintendo.html" class="nav-link px-2 text-muted">Nintendo</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../microsoft/microsoft.html" class="nav-link px-2 text-muted">Xbox</a>
+                </li>
+            </ul>
+        <p class="text-center text-muted">© 2023</p>
+        <p class="text-center text-muted">Projeto desenvolvido por
+            <a href="https://github.com/IsaiasAlmeida20" target="_blank" class="text-white-50">Isaías Almeida</a> & 
+            <a href="https://github.com/ilmardanilo" target="_blank" class="text-white-50">Ilmar Danilo</a>
+        </p>
+      </div>
+      `;
 }
-
