@@ -17,6 +17,11 @@
       crossorigin="anonymous"
     ></script>
 
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+
     <link rel="stylesheet" href="../../styles/index.css" />
     <link rel="stylesheet" href="../../styles/microsoft/microsoft.css" />
     <link rel="stylesheet" href="../../styles/microsoft/xboxoriginal.css">
@@ -43,11 +48,9 @@
 
       <h2 class="card-title text-center mt-5 fs-1 fw-bold">História</h2>
 
-      <div
-        class="card text-center container-sm bg-light rounded-5 mb-5 border-0"
-      >
+      <div class="card container-sm bg-light rounded-5 border-0 custom-div">
         <div class="card-body">
-          <p class="card-text custom-p">
+          <p class="custom-p">
             O Xbox é um console de videogame doméstico e o primeiro título da
             série Xbox de consoles de videogame fabricados pela Microsoft. Foi
             lançado em 15 de novembro de 2001 na América do Norte, seguido pelo
@@ -59,20 +62,16 @@
             Company. A Atari cessou a produção do Jaguar em 1996 e parou de
             fabricar de consoles.
           </p>
-        </div>
-      </div>
 
-      <div class="card mb-3 container-sm bg-light border-0 cont">
-        <div class="row row-cols-1 row-cols-xl-2 g-4 break">
-          <div class="col m-auto text-center">
-            <img
-              src="../../img/microsoft/xb-original.jpg"
-              class="img-fluid rounded-4 align-content-center"
-            />
-          </div>
-          <div class="col m-auto">
-            <div class="card-body m-auto">
-              <p class="card-text text-center custom-p">
+          <div class="d-flex col container-sm container-img gap-3 mt-3">
+            <div class="row">
+              <img
+                src="../../img/microsoft/xb-original.jpg"
+                class="img-fluid m-auto rounded-5"
+              />
+            </div>
+            <div class="card-body row container-p">
+              <p class="custom-p2 m-auto">
                 Em 1998, quatro engenheiros do DirectX da Microsoft, Kevin
                 Bachus, Seamus Blackley, Ted Hase e o líder da equipe DirectX,
                 Otto Berkes, desmontaram alguns notebooks da Dell para construir
@@ -88,171 +87,58 @@
               </p>
             </div>
           </div>
+
+          <p class="custom-p"></p>
         </div>
       </div>
 
-      <h2 class="card-title text-center mt-5 mb-5 fs-1 fw-bold">
+      <h2 class="card-title text-center mb-5 fs-1 fw-bold">
         10 Jogos Mais Vendidos
       </h2>
 
-      <div class="card container-sm bg-light p-3 mb-5">
-        <table class="table table-sm p-5 fs-5">
+      <div class="card container-sm bg-light w-75">
+        <table class="table table-sm p-5 fs-5 mb-0">
           <thead class="text-center">
             <tr>
               <th scope="col">#</th>
               <th scope="col">Jogo</th>
-              <th scope="col">Copias Vendidas</th>
             </tr>
           </thead>
           <tbody class="text-center">
             <tr>
               <th scope="row">1</th>
-              <td>Halo 2</td>
-              <td>8 milhões</td>
+              <td>Halo: Combat Evolved</td>
             </tr>
             <tr>
               <th scope="row">2</th>
-              <td>Halo: Combat Evolved</td>
-              <td>4.91 milhões</td>
+              <td>Grand Theft Auto Double Pack</td>
             </tr>
             <tr>
               <th scope="row">3</th>
-              <td>Fable</td>
-              <td>3 milhões</td>
+              <td>Halo 2</td>
             </tr>
             <tr>
               <th scope="row">4</th>
-              <td>Project Gotham Racing</td>
-              <td>2.5 Milhões</td>
+              <td>Ninja Gaiden Black</td>
             </tr>
             <tr>
               <th scope="row">5</th>
-              <td>Grand Theft Auto Double Pack</td>
-              <td>2.49 milhões</td>
+              <td>Tom Clancy's Splinter Cell Chaos Theory</td>
             </tr>
             <tr>
-              <th scope="row">6</th>
-              <td>Star Wars: Knights of the Old Republic</td>
-              <td>1.58 milhões</td>
-            </tr>
-            <tr>
-              <th scope="row">7</th>
-              <td>Counter-Strike: Source</td>
-              <td>1.5 milhões</td>
-            </tr>
-            <tr>
-              <th scope="row">8</th>
-              <td>Ninja Gaiden</td>
-              <td>1.5 milhões</td>
-            </tr>
-            <tr>
-              <th scope="row">9</th>
-              <td>Grand Theft Auto: San Andreas</td>
-              <td>1.46 Milhões</td>
-            </tr>
-            <tr>
-              <th scope="row">10</th>
-              <td>Need for Speed: Underground 2</td>
-              <td>1.44 milhões</td>
+              <th scope="row" class="border-0"></th>
+              <td class="border-0">
+                <a
+                  href="metacritic.com/browse/games/score/metascore/all/xbox/filtered"
+                  target="_blank"
+                  class="text-decoration-none fs-6"
+                  ><small class="text-muted"
+                    >Fonte: Metacritic <i class="bi bi-link-45deg"></i></small
+                ></a>
+              </td>
             </tr>
           </tbody>
         </table>
-        <p class="card-text text-center">
-          <small class="text-muted">Fonte: Wikipédia.</small>
-        </p>
-      </div>
-
-      <div id="carouselExample" class="carousel slide w-50 h-50 m-auto">
-        <div class="carousel-inner rounded-5">
-          <div class="carousel-item active">
-            <img
-              src="../../img/microsoft/xbox-original/1.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="../../img/microsoft/xbox-original/2.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="../../img/microsoft/xbox-original/3.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="../../img/microsoft/xbox-original/4.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="../../img/microsoft/xbox-original/5.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="../../img/microsoft/xbox-original/6.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="../../img/microsoft/xbox-original/7.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="../../img/microsoft/xbox-original/8.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="../../img/microsoft/xbox-original/9.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="../../img/microsoft/xbox-original/10.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExample"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExample"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
     </div>
 
