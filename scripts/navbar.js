@@ -197,8 +197,14 @@ function loadFooter() {
             </ul>
         <p class="text-center text-muted">© 2023</p>
         <p class="text-center text-muted">Projeto desenvolvido por
-            <a href="https://github.com/IsaiasAlmeida20" target="_blank" class="text-white-50" id="link-footer">Isaías Almeida</a> & 
-            <a href="https://github.com/ilmardanilo" target="_blank" class="text-white-50" id="link-footer">Ilmar Danilo</a>
+            <a href="https://github.com/IsaiasAlmeida20" target="_blank" class="text-white-50" id="link-footer">
+                <i class="bi bi-github"></i>    
+                Isaías Almeida
+            </a> & 
+            <a href="https://github.com/ilmardanilo" target="_blank" class="text-white-50" id="link-footer">
+                <i class="bi bi-github"></i>
+                Ilmar Danilo
+            </a>
         </p>
       </div>
       `;
