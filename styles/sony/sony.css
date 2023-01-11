@@ -1,5 +1,5 @@
 body {
-  background-image: url("../../img/sony/bg/bg-sony1.png");
+  background-image: url('../../img/sony/bg/bg-sony1.png');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11,7 +11,7 @@ body {
   height: 17rem;
 }
 
-.card-width > img{
+.card-width > img {
   width: 100%;
 }
 
@@ -21,13 +21,14 @@ body {
 }
 
 .custom-p {
-  text-indent: 5%;
+  text-indent: 33px;
   text-align: justify;
   font-size: 1.25rem;
   padding: 1rem 5rem 1rem 5rem;
 }
 
 .custom-p2 {
+  text-indent: 33px;
   font-size: 1.25rem;
   margin: 0;
   width: 100%;
@@ -38,7 +39,7 @@ body {
   width: 100%;
 }
 
-.image{
+.image {
   width: 65%;
 }
 
@@ -50,16 +51,15 @@ body {
   .break {
     flex-direction: column;
   }
-  .image{
+  .image {
     width: 90%;
   }
-  .container-p{
+  .container-p {
     width: 170%;
   }
 }
 
 @media (max-width: 992px) {
-  
   .custom-p {
     font-size: 1rem;
     padding: 1rem;
@@ -78,7 +78,7 @@ body {
   .container-img img {
     width: 60%;
   }
-  .container-p{
+  .container-p {
     width: 105%;
   }
 
@@ -86,7 +86,6 @@ body {
     padding: 0;
     margin: auto;
   }
-
 }
 
 @media (max-width: 767px) {
@@ -106,11 +105,11 @@ body {
     width: 100%;
   }
 
-  .image{
+  .image {
     width: 100%;
   }
 
-  .custom-div{
+  .custom-div {
     width: 100%;
     padding: 0;
   }
@@ -131,5 +130,5 @@ body {
 
   .card-width {
     margin: auto;
-  }  
+  }
 }
