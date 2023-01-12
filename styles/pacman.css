@@ -1,0 +1,54 @@
+@keyframes chomp {
+  from {
+    stroke-dasharray: 157, 100;
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dasharray: 126, 100;
+    stroke-dashoffset: -15;
+  }
+}
+@keyframes dots {
+  from {
+    width: 95%;
+  }
+  to {
+    width: 5%;
+  }
+}
+.pacman-environment {
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.578);
+  width: 100%;
+  overflow: hidden;
+}
+.border {
+  height: 5px;
+  width: 100%;
+  border-radius: 12px;
+  border: 2px solid #2121de;
+}
+.path {
+  position: relative;
+  margin: 10px -200px;
+  height: 50px;
+}
+.pacman {
+  height: 100%;
+}
+circle {
+  stroke: yellow;
+  stroke-width: 50%;
+  fill: none;
+  animation: chomp 0.21s linear infinite alternate;
+}
+.dots {
+  float: right;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to left, #ddd 20%, transparent 0%);
+  background-position: center right;
+  background-size: 50px 10px;
+  background-repeat: repeat-x;
+  animation: dots 5s linear infinite;
+}

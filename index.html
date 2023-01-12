@@ -39,6 +39,7 @@
     />
 
     <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/pacman.css" />
     <title>HoG | History of Games</title>
   </head>
   <body">
@@ -245,10 +246,12 @@
 
     <div
       id="carouselExampleAutoplaying"
-      class="carousel slide overflow-hidden custom-m"
+      class="carousel slide overflow-hidden custom-m mb-3"
       data-bs-ride="carousel carousel-inner"
     >
-      <h1 class="text-center custom-header mb-5 mt-5">History of Games</h1>
+
+      <h1 class="text-center custom-header mb-5 mt-5 h1-pacman">History of Games</h1>
+
       <div class="carousel-indicators">
         <button
           type="button"
@@ -349,8 +352,20 @@
       </button>
     </div>
 
+    <div class="pacman-environment">
+      <div class="border"></div>
+      <div class="path">
+          <div class="dots">
+            <svg class="pacman" viewbox="0 0 100 100">
+              <circle cx="50%" cy="50%" r="25%"></circle>
+            </svg>
+          </div>
+      </div>
+      <div class="border"></div>
+    </div>
+
     <div
-      class="card-body container-sm text-center mt-5 mb-5 rounded-5 overflow-hidden bg-light pt-3 container-m"
+      class="card-body container-sm text-center mt-3 mb-5 rounded-5 overflow-hidden bg-light pt-3 container-m"
     >
       <h2 class="card-title mt-3 mb-3 p-3 fs-1 fw-bold">
         As três maiores indústrias dos Games
