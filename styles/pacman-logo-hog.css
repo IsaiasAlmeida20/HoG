@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:700');
+/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&display=swap'); */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.hog-pacman {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: 'IBM Plex Mono', monospace;
+  background: transparent;
+}
+h1.h1-logo {
+  font-size: 10vmin;
+  line-height: 10vmin;
+  margin: 0 0px;
+  font-weight: bold;
+  letter-spacing: 0.2vmin;
+}
+.wrapper {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+}
+/* .wrapper-inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform: scale(2);
+} */
+.text-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-size: 50vmin;
+  line-height: 50vmin;
+  margin: 0 0px;
+  font-weight: bold;
+  letter-spacing: -3vmin;
+}
+.dash {
+  width: 10vmin;
+  color: transparent;
+  position: relative;
+}
+/* .dash::after {
+  content: '';
+  position: absolute;
+  height: 5vmin;
+  width: 10vmin;
+  transform: translate(-50%, -50%);
+  background: #000;
+  top: 60%;
+  left: 30%;
+} */
+.awesome {
+  width: 25vmin;
+  height: 25vmin;
+  background: #000;
+  position: relative;
+  right: -1vmin;
+  top: 5vmin;
+  border-radius: 10px;
+}
+
+.awesome::after {
+  content: '';
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  border-radius: 10px;
+  top: 25%;
+  left: 25%;
+  background: #ffffff;
+  animation: change-bg 8s infinite;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.ghost {
+  width: 25%;
+  height: 25%;
+  background: #d03e19;
+  position: absolute;
+  border-radius: 50% 50% 0 0;
+  animation: move-pac-man linear 8s infinite -6.5s;
+}
+.ghost::before,
+.ghost::after {
+  content: '';
+  position: absolute;
+  border: 1.5vmin solid transparent;
+  border-bottom: 1.5vmin solid #000;
+  bottom: 0;
+}
+.ghost::after {
+  right: 0;
+}
+.ghost .eye {
+  position: absolute;
+  height: 30%;
+  width: 20%;
+  background: #fff;
+  border-radius: 50% 50% 0 0;
+  top: 20%;
+  left: 30%;
+}
+.ghost .eye:nth-child(2) {
+  left: 70%;
+}
+.ghost .eye::after {
+  content: '';
+  position: absolute;
+  width: 0.75vmin;
+  height: 0.75vmin;
+  background: #000;
+  border-radius: 100%;
+  right: 10%;
+  bottom: 10%;
+}
+.pac-man {
+  width: 6.25vmin;
+  height: 6.25vmin;
+  position: absolute;
+  transform-origin: center center;
+  animation: move-pac-man linear 8s infinite;
+}
+@keyframes move-pac-man {
+  0% {
+    transform: translate(0, 0);
+  }
+  24% {
+    transform: translate(18.75vmin, 0);
+  }
+  26% {
+    transform: translate(18.75vmin, 0) rotate(90deg);
+  }
+  49% {
+    transform: translate(18.75vmin, 18.75vmin) rotate(90deg);
+  }
+  51% {
+    transform: translate(18.75vmin, 18.75vmin) rotate(180deg);
+  }
+  74% {
+    transform: translate(0vmin, 18.75vmin) rotate(180deg);
+  }
+  76% {
+    transform: translate(0vmin, 18.75vmin) rotate(270deg);
+  }
+  98% {
+    transform: translate(0vmin, 0vmin) rotate(270deg);
+  }
+  100% {
+    transform: translate(0vmin, 0vmin) rotate(360deg);
+  }
+}
+.pac-man .eye {
+  width: 20%;
+  height: 20%;
+  border-radius: 100%;
+  background: #fff;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  z-index: 1;
+}
+.pac-man .eye::after {
+  content: '';
+  width: 50%;
+  height: 50%;
+  border-radius: 100%;
+  background: #000;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 75%;
+  top: 75%;
+}
+.pac-man::before,
+.pac-man::after {
+  content: '';
+  background: #fdff00;
+  width: 100%;
+  height: 50%;
+  position: absolute;
+}
+.pac-man::before {
+  border-radius: 0 0 12.5vmin 12.5vmin;
+  top: 50%;
+  transform-origin: center top;
+  animation: chomp 0.25s infinite;
+}
+@keyframes chomp {
+  0%,
+  100% {
+    transform: rotate(2deg);
+  }
+  50% {
+    transform: rotate(30deg);
+  }
+}
+.pac-man::after {
+  border-radius: 12.5vmin 12.5vmin 0 0;
+  transform-origin: center bottom;
+  animation: chomp-2 0.25s infinite;
+}
+@keyframes chomp-2 {
+  0%,
+  100% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    transform: rotate(-30deg);
+  }
+}
+.dot {
+  width: 0.75vmin;
+  height: 0.75vmin;
+  background: #db851c;
+  position: absolute;
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+  top: 12.5%;
+  left: 15%;
+  animation: eat-dot 8s infinite -0.2s;
+}
+.dot:nth-of-type(2) {
+  left: 40%;
+  animation: eat-dot 8s infinite 0.5s;
+}
+.dot:nth-of-type(3) {
+  left: 62.5%;
+  animation: eat-dot 8s infinite 1s;
+}
+.dot:nth-of-type(4) {
+  left: 85%;
+  animation: eat-dot 8s infinite 1.5s;
+}
+.dot:nth-of-type(5) {
+  left: 85%;
+  top: 40%;
+  animation: eat-dot 8s infinite 2.5s;
+}
+.dot:nth-of-type(6) {
+  left: 85%;
+  top: 62.5%;
+  animation: eat-dot 8s infinite 3s;
+}
+.dot:nth-of-type(7) {
+  left: 85%;
+  top: 85%;
+  animation: eat-dot 8s infinite 3.5s;
+}
+.dot:nth-of-type(8) {
+  left: 62.5%;
+  top: 85%;
+  animation: eat-dot 8s infinite 4.3s;
+}
+.dot:nth-of-type(9) {
+  left: 40%;
+  top: 85%;
+  animation: eat-dot 8s infinite 5s;
+}
+.dot:nth-of-type(10) {
+  left: 15%;
+  top: 85%;
+  animation: eat-dot 8s infinite 5.5s;
+}
+.dot:nth-of-type(11) {
+  left: 15%;
+  top: 62.5%;
+  animation: eat-dot 8s infinite 6.3s;
+}
+.dot:nth-of-type(12) {
+  left: 15%;
+  top: 40%;
+  animation: eat-dot 8s infinite 6.9s;
+}
+@keyframes eat-dot {
+  0% {
+    opacity: 1;
+  }
+  3% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.p {
+  position: relative;
+}
+.p .pac-man {
+  animation: pac-man-p 8s linear infinite;
+  top: 18%;
+  left: 16%;
+}
+@keyframes pac-man-p {
+  0%,
+  100% {
+    transform: translate(0, 0) rotate(90deg);
+  }
+  48% {
+    transform: translate(0, 27vmin) rotate(90deg);
+  }
+  52% {
+    transform: translate(0, 27vmin) rotate(-90deg);
+  }
+  98% {
+    transform: translate(0, 0vmin) rotate(-90deg);
+  }
+}
+/* .c {
+  position: relative;
+} */
+/* .c .pac-man {
+  animation: none;
+  transform: scale(1.5);
+  top: 56%;
+  left: 51%;
+} */
+.ghost-2 {
+  width: 30%;
+  height: 20%;
+}
+.ghost-2::before,
+.ghost-2::after {
+  content: '';
+  position: absolute;
+  border: 1.5vmin solid transparent;
+  border-top: 1.5vmin solid #d03e19;
+  top: 100%;
+}
+.ghost-2::after {
+  right: 0%;
+}
+.m {
+  position: relative;
+}
+.m .ghost {
+  animation: none;
+  top: 68%;
+  left: 40%;
+  animation: bounce-ghost 3s infinite;
+}
+@keyframes bounce-ghost {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, -50%);
+  }
+}
+.n {
+  position: relative;
+}
+.n .ghost {
+  animation: none;
+  top: 58%;
+  left: 41%;
+  animation: bounce-ghost 3s infinite;
+}
+
+@media (max-width: 700px) {
+  h1.h1-logo {
+    font-size: 8vmin;
+    line-height: 10vmin;
+    margin: 0 0px;
+    font-weight: bold;
+    letter-spacing: 0.2vmin;
+  }
+}
