@@ -52,6 +52,18 @@ main {
   text-decoration: none;
 }
 
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 5px;
+  border: none;
+  background-color: transparent;
+}
+
+#back-to-top img {
+  max-width: 100px;
+}
+
 @media (max-width: 992px) {
   nav div {
     flex-direction: row;

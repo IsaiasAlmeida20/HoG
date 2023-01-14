@@ -261,6 +261,7 @@
       id="carouselExampleAutoplaying"
       class="carousel slide overflow-hidden custom-m mb-3"
       data-bs-ride="carousel carousel-inner"
+      onmouseover="hideBackToTopButton()"
     >
 
       <div class="hog-pacman">
@@ -373,7 +374,7 @@
       </button>
     </div>
 
-    <div class="pacman-environment">
+    <div class="pacman-environment" onmouseover="showBackToTopButton()">
       <div class="border"></div>
       <div class="path">
           <div class="dots">
@@ -428,6 +429,8 @@
       </p>
     </div>
 
+    <button id="back-to-top"><img src="img/sonic-jump.gif" alt="sonic pulando"></button>
+
     <footer class="text-center text-white bg-dark bg-gradient">
       <div class="text-center p-3">
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
@@ -468,5 +471,6 @@
     </footer>
 
     <script src="./scripts/navbar.js"></script>
+    <script src="./scripts/back-to-top.js"></script>
   </body>
 </html>
