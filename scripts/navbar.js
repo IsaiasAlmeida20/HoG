@@ -100,34 +100,37 @@ function loadNavbar() {
             </a>
             <ul class="dropdown-menu border-0">
                 <li>
-                <a class="dropdown-item text-center" href="#"
+                <a class="dropdown-item text-center" href="../../src/nintendo/nes.html"
                     >Nintendo Entertainment System</a
                 >
                 </li>
                 <li>
-                <a class="dropdown-item text-center" href="#">Game Boy/Advance</a>
+                <a class="dropdown-item text-center" href="../../src/nintendo/gameboy.html">Game Boy/Advance</a>
                 </li>
                 <li>
-                <a class="dropdown-item text-center" href="#"
+                <a class="dropdown-item text-center" href="../../src/nintendo/super-nintendo.html"
                     >Super Nintendo</a
                 >
                 </li>
                 <li>
-                <a class="dropdown-item text-center" href="#">Nintendo 64</a>
+                <a class="dropdown-item text-center" href="../../src/nintendo/nintendo64.html">Nintendo 64</a>
                 </li>
                 <li>
-                <a class="dropdown-item text-center" href="#"
+                <a class="dropdown-item text-center" href="../../src/nintendo/gamecube.html"
                     >Nintendo GameCube</a
                 >
                 </li>
                 <li>
-                <a class="dropdown-item text-center" href="#">Nintendo DS/3DS</a>
+                <a class="dropdown-item text-center" href="../../src/nintendo/nintendo-ds.html">Nintendo DS</a>
                 </li>
                 <li>
-                <a class="dropdown-item text-center" href="#">Nintendo Wii/Wii U</a>
+                <a class="dropdown-item text-center" href="../../src/nintendo/nintendo-3ds.html">Nintendo 3DS</a>
                 </li>
                 <li>
-                <a class="dropdown-item text-center" href="#"
+                <a class="dropdown-item text-center" href="../../src/nintendo/wii-wii-u.html">Nintendo Wii/Wii U</a>
+                </li>
+                <li>
+                <a class="dropdown-item text-center" href="../../src/nintendo/nintendo-switch.html"
                     >Nintendo Switch</a
                 >
                 </li>
