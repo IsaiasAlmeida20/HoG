@@ -88,6 +88,10 @@ main {
     padding: 1rem;
     margin: 1rem;
   }
+
+  #back-to-top img {
+    display: none;
+  }
 }
 
 @media (max-width: 767px) {

@@ -5,9 +5,13 @@ btn.addEventListener('click', function () {
 });
 
 function showBackToTopButton() {
-  btn.style.display = 'block';
+  if (window.screen.width > 992) {
+    btn.style.display = 'block';
+  }
 }
 
 function hideBackToTopButton() {
-  btn.style.display = 'none';
+  if (window.screen.width > 992) {
+    btn.style.display = 'none';
+  }
 }
